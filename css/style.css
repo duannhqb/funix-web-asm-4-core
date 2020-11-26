@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    font-family: "Lucida Sans", monospace, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+}
+
+.row {
+    clear: both;
+    display: table;
+}
+
+.row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* css */
+
+.container {
+    margin-top: 45px;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.container .signup {
+    margin: auto;
+    width: 25%;
+    padding: 50px;
+    background-color: #00ffff1c;
+    border-radius: 16px;
+}
+
+.container .login .form-input label {
+    display: block;
+}
+
+.container .form-input {
+    margin: 10px;
+}
+
+.urfavous {
+    margin-left: 35px;
+}
+
+.container .login {
+    margin: auto;
+    width: 30%;
+    padding: 50px;
+    background-color: #00ffff1c;
+    border-radius: 16px;
+}
+
+.container .link {
+    margin-top: 10px;
+}
+
+
+/* =============================== */
+
+
+/* Common */
+
+
+/* =============================== */
+
+.container .text-title {
+    color: #fff;
+}
+
+
+/* play */
+
+.container .find-a-play .find-a-play-title {
+    font-size: 45px;
+}
+
+.container .find-a-play .find-a-play-text {
+    color: #fff;
+    margin: 5px;
+    margin-left: 5%;
+    text-shadow: 1px 1px 4px gray;
+}
+
+
+/* guides */
+
+.container .guides {
+    background: #bbb6b670;
+    padding: 2% 5% 5% 5%;
+}
+
+.container .guides-title {
+    font-size: 22px;
+}
+
+
+/* footer */
+
+.footer-title {
+    color: #000;
+    font-size: 22px;
+}
+
+.footer-link {
+    text-decoration: underline;
+    color: #20b8c7;
+    font-weight: 400;
+}

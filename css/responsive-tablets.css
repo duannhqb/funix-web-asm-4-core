@@ -1,0 +1,189 @@
+/* @media only screen and (min-width: 768px) and (max-width: 991px) { */
+
+
+/* For tablets: */
+
+.col-s-1 {
+    width: 8.33%;
+}
+
+.col-s-2 {
+    width: 16.66%;
+}
+
+.col-s-3 {
+    width: 25%;
+}
+
+.col-s-4 {
+    width: 33.33%;
+}
+
+.col-s-5 {
+    width: 41.66%;
+}
+
+.col-s-6 {
+    width: 50%;
+}
+
+.col-s-7 {
+    width: 58.33%;
+}
+
+.col-s-8 {
+    width: 66.66%;
+}
+
+.col-s-9 {
+    width: 75%;
+}
+
+.col-s-10 {
+    width: 83.33%;
+}
+
+.col-s-11 {
+    width: 91.66%;
+}
+
+.col-s-12 {
+    width: 100%;
+}
+
+
+/* =============================== */
+
+
+/* menu */
+
+
+/* =============================== */
+
+.container .menu {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    height: 45px;
+    top: 0;
+    z-index: 999;
+}
+
+.container .menu ul {
+    list-style: none;
+    height: 100%;
+    margin: 0;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.container .menu ul li {
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 100%;
+    display: inline-block;
+    line-height: 45px;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: 220ms;
+}
+
+.container .menu ul li:hover {
+    cursor: pointer;
+    transition: 220ms;
+}
+
+.container .menu ul li:hover>a {
+    text-decoration: underline;
+}
+
+.container .menu ul li a {
+    text-decoration: none;
+    height: 100%;
+    color: gray;
+}
+
+.container .menu .left-content {
+    float: left;
+}
+
+.container .menu .right-content {
+    float: right;
+}
+
+.container .menu {
+    background: #5c5c73;
+    height: 90px;
+    line-height: 90px;
+}
+
+.container .menu ul li a {
+    color: #fff;
+}
+
+ :root {
+    --font-size-title: 30px;
+    --font-size-text: 18px;
+}
+
+
+/* container */
+
+.container {
+    margin-top: 150px;
+}
+
+.find-a-play {
+    height: 150px;
+    border-bottom: 1px solid gray;
+}
+
+.container .find-a-play .find-a-play-text.title {
+    color: black !important;
+    font-size: var(--font-size-title) !important;
+    text-shadow: none !important;
+}
+
+.text {
+    color: gray !important;
+    text-shadow: none !important;
+    font-size: var(--font-size-text) !important;
+}
+
+.title {
+    color: black !important;
+    font-size: var(--font-size-title) !important;
+}
+
+
+/* guides */
+
+.container .guides {
+    background-color: transparent;
+}
+
+.guides-images {
+    margin: -15px;
+}
+
+.guides-image-item {
+    padding: 15px;
+}
+
+
+/* footer */
+
+.footer {
+    clear: both;
+    padding: 5%;
+}
+
+
+/* img */
+
+.img {
+    width: 100%;
+}
+
+
+/* } */

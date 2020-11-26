@@ -1,0 +1,193 @@
+/* @media only screen and (min-width: 992px) { */
+
+
+/* For desktop: */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/* =============================== */
+
+
+/* menu */
+
+
+/* =============================== */
+
+.container .menu {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    height: 45px;
+    top: 0;
+    z-index: 999;
+}
+
+.container .menu ul {
+    list-style: none;
+    height: 100%;
+    margin: 0;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.container .menu ul li {
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 100%;
+    display: inline-block;
+    line-height: 45px;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: 220ms;
+}
+
+.container .menu ul li:hover {
+    cursor: pointer;
+    background-color: beige;
+    transition: 220ms;
+}
+
+.container .menu ul li a {
+    text-decoration: none;
+    height: 100%;
+    color: gray;
+}
+
+.container .menu .left-content {
+    float: left;
+}
+
+.container .menu .right-content {
+    float: right;
+}
+
+
+/* ================================ */
+
+
+/* find-a-play */
+
+
+/* ================================ */
+
+.container .find-a-play {
+    background-image: url(./../images/lodging.png);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .find-a-play::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: #00000014;
+    max-height: 50vh;
+    min-height: 500px;
+}
+
+
+/* ======================================= */
+
+
+/* guides */
+
+
+/* ======================================= */
+
+.container .guides .guides-images {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.container .guides .guides-images-left {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+/* ========================= */
+
+
+/* footer */
+
+
+/* ========================= */
+
+.container .footer {
+    background-color: #d8d8d84a;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3% 5% 5% 5%;
+}
+
+.footer-item {
+    padding-right: 30px;
+}
+
+
+/* img */
+
+.img {
+    width: 100%;
+}
+
+.guides-images {
+    margin: -15px;
+}
+
+.guides-image-item {
+    padding: 15px;
+}
+
+
+/* } */
